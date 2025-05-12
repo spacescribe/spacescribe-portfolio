@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  /* height: 100vh; */
+  min-height: 100vh; /* let it grow beyond the initial viewport */
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 5%;
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero-left p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.resume-btn {
+  background-color: #d26cb2;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+}
+
+.resume-btn:hover {
+  background-color: #b05c9b;
+}
+
+.hero-right {
+  text-align: right;
+}
+
+.hero-right h2 {
+  font-size: 2.5rem;
+  color: #d26cb2;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-right p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.linkedin-icon {
+  margin-top: 40px;
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,137 @@
+.home {
+    display: grid;
+    grid-template-areas:
+      "intro        hero-right"
+      "info         hero-right"
+      "info         quote"
+      "resume-button resume-button";
+    grid-template-columns: 50% 50%;
+    width: 72vw;
+    height: 65vh;
+    margin: 2rem auto 0 auto;  /* Move the container up by adjusting the top margin */
+    padding: 2rem;
+    gap: 1.5rem;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 12px;
+    align-content: center;
+  }
+  
+  
+  /* Section styles */
+  .intro {
+    grid-area: intro;
+    font-size: 2.5rem;
+    font-weight: bold;
+    align-self: end;
+  }
+  
+  .info {
+    grid-area: info;
+    font-size: 1.0rem;
+    line-height: 1.6;
+    align-self: start;
+  }
+  
+  .hero-right {
+    grid-area: hero-right;
+    text-align: left;
+    align-self: center;
+    margin-left: 90px;
+    font-family: 'DM Serif Text', serif;
+  }
+  
+  .hero-right h2 {
+    font-size: 1.90rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #f472b6;
+    font-family: 'DM Serif Text', serif;
+  }
+
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #f472b6;
+    color: #f472b6;
+    text-align: left;
+    font-size: 2.7rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .quote {
+    grid-area: quote;
+    font-style: italic;
+    text-align: left;
+    color: #fefefe;
+    font-size: 1.2rem;
+    /* align-self: flex-start;  */
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;  /* brings it closer */
+    margin-left: 90px;
+  }
+  
+  
+  .resume-button {
+    grid-area: resume-button;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+  }
+  
+  .resume-btn {
+    background-color: #ec4899;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background-color: #db2777;
+  }
+
+  @media screen and (max-width: 768px) {
+  .home {
+    grid-template-areas:
+      "intro"
+      "hero-right"
+      "quote"
+      "info"
+      "resume-button";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    width: 90vw;
+    padding: 1.5rem;
+    gap: 1.2rem;
+  }
+
+  .hero-right,
+  .quote {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .quote {
+    margin-top: 0; /* REMOVE negative margin */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro,
+  .info {
+    text-align: center;
+  }
+
+  .resume-button {
+    justify-content: center;
+  }
+
+  .txt-rotate > .wrap {
+    text-align: center;
+  }
+}

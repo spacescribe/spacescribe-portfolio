@@ -1,0 +1,39 @@
+.footer {
+  /* background-color: #111; */
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  text-align: center;
+  flex: 1;
+  font-size: 1rem;
+}
+
+.social-nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #f472b6;
+}
