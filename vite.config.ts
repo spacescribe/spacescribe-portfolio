@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: "/portfolio-website",
+  base: "/spacescribe-portfolio",
   plugins: [react(),],
-  // base: '/spacescribe-portfolio/', // e.g. '/portfolio/'
-  build: {
-    outDir: 'docs', // 👈 this is the key change
-  },
+  // // base: '/spacescribe-portfolio/', // e.g. '/portfolio/'
+  // build: {
+  //   outDir: 'docs', // 👈 this is the key change
+  // },
 })
