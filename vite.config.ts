@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/spacescribe-portfolio",
+  base: "/spacescribe-portfolio/",
   plugins: [react(),],
   // // base: '/spacescribe-portfolio/', // e.g. '/portfolio/'
   // build: {

@@ -7,7 +7,7 @@ const Contact = () => {
       <h1>Contact Me</h1>
       <form
         className="contact-form"
-        action="https://formsubmit.co/2fc6565f0f97ef32212d9e3a98db50e5"
+        action="https://formsubmit.co/dataexplorerx3@gmail.com"
         method="POST"
       >
         <input type="hidden" name="_captcha" value="false" />
