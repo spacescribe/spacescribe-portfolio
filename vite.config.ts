@@ -6,8 +6,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // base: "/portfolio-website",
   plugins: [react(),],
-  // base: '/portfolio-website/my-portfolio', // e.g. '/portfolio/'
-  // build: {
-  //   outDir: '../docs', // 👈 this is the key change
-  // },
+  // base: '/spacescribe-portfolio/', // e.g. '/portfolio/'
+  build: {
+    outDir: 'docs', // 👈 this is the key change
+  },
 })

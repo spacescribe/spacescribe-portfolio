@@ -5,8 +5,9 @@ import "../styles/ProjectDetails.css";
 
 const images = import.meta.glob("../assets/images/*.{png,jpg,jpeg}", {
   eager: true,
-  as: "url",
-});
+  query: '?url',
+  import: 'default',
+}) as Record<string, string>;
 
 const ProjectDetails: React.FC = () => {
   const { id } = useParams();
