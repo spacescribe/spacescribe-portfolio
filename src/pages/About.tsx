@@ -14,9 +14,9 @@ const About = () => {
         <h1>About Me</h1>
         <p>
           I’m a passionate developer with a strong interest in cloud computing,
-          full-stack development, and modern web technologies. I love building
+          full-stack development, and modern web technologies. My main focus have been cloud insfrastructure on AWS and Infrastructure as Code with Terraform and AI/ML projects. I love building
           intuitive, responsive web applications and solving real-world problems
-          through code.
+          through code. I also work with AI/ML models and data visualization tools.
         </p>
         <p>
           This portfolio showcases some of the projects I’ve worked on. Each one

@@ -68,11 +68,9 @@ const Home = () => {
       <div className="intro">Hi, I am Nandini!</div>
       <div className="info">
         A passionate and detail-oriented IT enthusiast with a strong foundation in data engineering,
-        full-stack development, and cloud technologies. I enjoy building meaningful digital
+        full-stack(mostly backend) development, and cloud technologies. I enjoy building meaningful digital
         experiences and solving real-world problems using technology. With hands-on experience in
-        Power BI dashboards, cloud platforms like AWS and Azure, and blockchain development, I
-        thrive at the intersection of innovation and functionality. I’m currently pursuing my B.Tech
-        in Information Technology with a Management minor, and I love exploring new tools that
+       dashboards in Tableau and PowerBI, cloud platforms like AWS and AI/ML projects, I thrive at the intersection of innovation and functionality. I love exploring new tools that
         bridge creativity and code.
       </div>
       <div className="hero-right">
